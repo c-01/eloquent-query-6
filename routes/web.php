@@ -10,3 +10,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/line/{name}', 'HugeController@index')->name('huge.index');
